@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#nav {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav .text-end a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+i {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/2373201/pexels-photo-2373201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#desc h1 {
+    width: 50%;
+    color: #fff;
+}
+
+
+#desc button {
+    background-color: transparent;
+    color: coral;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+#desc button:hover {
+    border: 2px solid coral;
+    background-color: coral;
+    color: #fff;
+}
+
+#img-fl {
+    border-radius: 20px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.btn {
+    background-color: coral;
+    
+}
+
+.btn-cta {
+    background-color: transparent;
+    color: coral;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-cta:hover{
+    border: 2px solid coral;
+    background-color: coral;
+    color: #fff;
+}
+
+h2 {
+    color: coral;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-cadastro {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+#btn-cadastro:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    background-color: coral;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+#btn2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+

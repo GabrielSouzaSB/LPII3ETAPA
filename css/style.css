@@ -1,0 +1,318 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 10px;
+    background-color: coral;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#titulo-perg {
+    color: coral;
+}
+
+#main {
+    width: 1300px;
+    height: 500px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid;
+    border-radius: 20px;
+    
+}
+
+button div h2 {
+    color: coral;
+}
+
+#conteudodesc h1 {
+    color: coral;
+    font-size: 2rem;
+}
+
+div#header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#opcoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.opcao {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #dddddd;
+    transition:  all 0.3s ease-in-out;
+}
+
+.opcao:hover {
+    border: 2px solid #000;
+    transform: scale(1.02);
+}
+
+.opcao div h2 {
+    font-size: 1.3rem;
+}
+
+.opcao div p {
+    font-size: 1rem;
+}
+
+#desc-casa {
+    text-align: justify;
+}
+
+.btn-img {
+    border-radius: 8px ;
+    height: 250px;
+    width: 100%;
+}
+
+.opcao div {
+    width: 100%;
+    height: 100%;
+}
+
+.info-casa {
+    margin-bottom: 20px;
+}
+
+.comodidades {
+    margin-bottom: 20px ;
+}
+
+hr {
+    border: 0.5px solid rgb(230, 230, 230);
+    margin-bottom: 15px;
+}
+
+.comodidades span {
+    margin: 20px 15px 0px 0px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.comodidades span img {
+    margin-right: 8px ;
+}
+
+#comodidades-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#adicionais {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    background-color: #000; 
+    margin-right: 10px;
+}
+
+#part01, #part02, #part03, #part04 {
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo-casa h1 {
+    font-size: 1.8rem;
+}
+
+#adicionais #part03 p {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#adicionais #part04 p {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px 15px 0px;
+} 
+
+#form {
+    margin-bottom: 30px;
+}
+
+form h1 {
+    margin: 20px 0px 20px 0px;
+    margin-bottom: 20px;
+}
+
+#reserva {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reserva h1 {
+    margin-bottom: 20px;
+}
+
+#reserva button {
+    padding: 10px
+}
+
+#valor {
+    text-align: center;
+}
+
+#valor p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#dias {
+    margin: 20px auto;
+}
+
+#dias label{
+    font-size: 1.2rem;
+}
+
+#dias input[type='number'] {
+    padding: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#p-botao {
+    text-align: center;
+}
+
+#reset {
+    padding: 10px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 20px auto;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#reset:hover {
+    background-color: #000;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+#finalizar {
+    display: flex;
+    justify-content: end;
+}
+
+#btn-compra {
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    font-size: 15px;
+    
+}
+
+#vld-main {
+    width: 1100px;
+    /* height: 1600px; */
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+
+
+
+fieldset {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border: 0.1em solid darkcyan;
+    padding: 2em;
+    margin-bottom: 15px;
+
+   
+}
+
+#vld-body {
+    background-color: coral;
+}
+
+#msg {
+    color: red;
+    display: none;
+}
+
+#vld-main {
+    background-color: #fff;
+    box-shadow: 4px 4px 4px  #000;
+}
+
+#cadastro {
+    background-color: #fff;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+#cadastro h1,h2 {
+    color: coral;
+    font-weight: 700;
+}
+
+#cnpj, #cartao, #parcelado, #dinheiro {
+    display: none;
+}
+
+#btn-voltar {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+
+
+
+
